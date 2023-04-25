@@ -9,7 +9,7 @@ readonly C_PATH="$(pwd)"
 #######################
 
 install_deps(){
-  su -c "apt install -y autoconf automake cmake g++ gettext libncurses5-dev \
+  su -c "apt install -y lua5.4 autoconf automake cmake g++ gettext libncurses5-dev \
     libtool libtool-bin libunibilium-dev libunibilium4 ninja-build \
     pkg-config software-properties-common unzip"
 }
